@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 /* theory of encapsulation
-encapsulation is the process of enclosing within classes and objects the attributes and the methods.
+encapsulation - the process of enclosing within classes and objects the attributes and the methods.
 in other words encapsulation allow wrapping up of data and function into a single unit.
 
 advantage-
