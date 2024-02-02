@@ -3,7 +3,6 @@ using namespace std;
 // access class members using object
 // object_name.data_member
 // object_name.member_function
-//
 
 class student
 {
