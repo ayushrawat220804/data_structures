@@ -36,7 +36,7 @@ int main()
 	cout << endl;
 	for (int i=0; i<size; i++)
 	{
-		cout << "details of student: " << i+1;
+		cout << endl << "details of student: " << i+1;
 		st[i].display();
 	}
 	return 0;
