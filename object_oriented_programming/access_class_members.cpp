@@ -13,10 +13,10 @@ class student
 		int a;
 		void getdata(void);
 		void display(void){
-			cout << it << "\t" << name << endl;
+			cout << id << "\t" << name << endl;
 		}
 };
 int main(){
-	cout << <<endl;
+	cout << id <<endl;
 	return 0;
 }

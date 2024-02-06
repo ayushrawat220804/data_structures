@@ -27,13 +27,15 @@ void student :: read()
 	cout << "enter zipcode: ";
 	cin >> zipcode;
 }
-void student :: disp(){
+void student :: disp()
+{
 	cout << endl << "student name: " << name << endl;
 	cout << "student roll no: " << roll << endl;
 	cout << "student address: " << address <<endl;
 	cout << "student zipcode: " << zipcode << endl;
 }
-student :: ~student(){
+student :: ~student()
+{
 	cout << "\nstudent details is closed and realted object ";
 }
 int main()
