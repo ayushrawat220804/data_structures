@@ -17,6 +17,6 @@ class student
 		}
 };
 int main(){
-	cout << id <<endl;
+	cout << "hello world" <<endl;
 	return 0;
 }
