@@ -3,7 +3,6 @@ using namespace std;
 // access class members using object
 // object_name.data_member
 // object_name.member_function
-//
 
 class student
 {
@@ -14,10 +13,10 @@ class student
 		int a;
 		void getdata(void);
 		void display(void){
-			cout << it << "\t" << name << endl;
+			cout << id << "\t" << name << endl;
 		}
 };
 int main(){
-	cout << <<endl;
+	cout << id <<endl;
 	return 0;
 }
