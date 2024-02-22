@@ -23,7 +23,8 @@ class comment {
 };
 int main(){
 	comment yes; // in constructor u have to use class name 
-	yes.show(); // u have to use this . operator to call show function.
+	yes.show();
+	 // u have to use this . operator to call show function.
 // constructor automatically initializes when we create a object ,  here we have create a object name yes
 	return 0;
 }

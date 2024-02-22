@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 /*
- constants / literals - inshort constant keyword means when we declare a keyword a const thenw e cannot change its value
+ constants / literals - inshort constant keyword means when we declare a keyword a const then we cannot change its value
  
 variable 
 const int PI = 3.14;

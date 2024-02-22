@@ -2,7 +2,7 @@
 using namespace std;
 class student{
 	public:
-		void disp(void)const; // just have to write const at the end
+		void disp(void)const; // just have to write const at the end of the function declration
 //		{
 //		cout << "I am constant.";
 //		}

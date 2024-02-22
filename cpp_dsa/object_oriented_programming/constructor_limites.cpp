@@ -12,6 +12,11 @@ like other c++ fucntions, thry can have default arguments.
 constructors can't be virtual.
 constructors can be inside the class definition and outside the class definitoin.
 
+// THERE ARE TOTAL 3 TYPES OF CONSTRUCTORS IN CPP
+DEFAULT CONSTRUCTOR
+PARAMETERIZED CONSTRUCTOR
+COPY CONSTRUCTORS
+
 
 LIMITATIONS OF CONSTRUCTORS:
 1. no return tyoe - a constructor cannot return a result which means that we cannot signal an error during the object intitalization, the only way of doing it is to throw an exception from a constructor.

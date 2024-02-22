@@ -1,0 +1,246 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\rohit\\data_structures\\cpp_dsa\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\rohit\\data_structures\\cpp_dsa\\object_oriented_programming\\array_of_object.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:object_oriented_programming\\array_of_object.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\rohit\\data_structures\\cpp_dsa\\CppProperties.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:CppProperties.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\rohit\\data_structures\\cpp_dsa\\object_oriented_programming\\all_the _memeber_of_one_class_as_the_friend_of_another_class.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:object_oriented_programming\\all_the _memeber_of_one_class_as_the_friend_of_another_class.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\rohit\\data_structures\\cpp_dsa\\object_oriented_programming\\callby_address_or_passby_pointer.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:object_oriented_programming\\callby_address_or_passby_pointer.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\rohit\\data_structures\\cpp_dsa\\object_oriented_programming\\class.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:object_oriented_programming\\class.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\rohit\\data_structures\\cpp_dsa\\object_oriented_programming\\constructor_limites.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:object_oriented_programming\\constructor_limites.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\rohit\\data_structures\\cpp_dsa\\object_oriented_programming\\inheritance_importance.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:object_oriented_programming\\inheritance_importance.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\rohit\\data_structures\\cpp_dsa\\object_oriented_programming\\member_functions.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:object_oriented_programming\\member_functions.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\rohit\\data_structures\\cpp_dsa\\object_oriented_programming\\inheritance_declaration.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:object_oriented_programming\\inheritance_declaration.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\rohit\\data_structures\\cpp_dsa\\object_oriented_programming\\inheritance.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:object_oriented_programming\\inheritance.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\rohit\\data_structures\\cpp_dsa\\object_oriented_programming\\friend_function_friend_to_more_classes_ex1.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:object_oriented_programming\\friend_function_friend_to_more_classes_ex1.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\rohit\\data_structures\\cpp_dsa\\switch_case.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:switch_case.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\rohit\\data_structures\\cpp_dsa\\precedence_operator.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:precedence_operator.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\rohit\\data_structures\\cpp_dsa\\add two numbers.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:add two numbers.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "array_of_object.cpp",
+              "DocumentMoniker": "C:\\Users\\rohit\\data_structures\\cpp_dsa\\object_oriented_programming\\array_of_object.cpp",
+              "RelativeDocumentMoniker": "object_oriented_programming\\array_of_object.cpp",
+              "ToolTip": "C:\\Users\\rohit\\data_structures\\cpp_dsa\\object_oriented_programming\\array_of_object.cpp",
+              "RelativeToolTip": "object_oriented_programming\\array_of_object.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-02-19T07:17:02.284Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "callby_address_or_passby_pointer.cpp",
+              "DocumentMoniker": "C:\\Users\\rohit\\data_structures\\cpp_dsa\\object_oriented_programming\\callby_address_or_passby_pointer.cpp",
+              "RelativeDocumentMoniker": "object_oriented_programming\\callby_address_or_passby_pointer.cpp",
+              "ToolTip": "C:\\Users\\rohit\\data_structures\\cpp_dsa\\object_oriented_programming\\callby_address_or_passby_pointer.cpp",
+              "RelativeToolTip": "object_oriented_programming\\callby_address_or_passby_pointer.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-02-15T05:08:07.869Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "class.cpp",
+              "DocumentMoniker": "C:\\Users\\rohit\\data_structures\\cpp_dsa\\object_oriented_programming\\class.cpp",
+              "RelativeDocumentMoniker": "object_oriented_programming\\class.cpp",
+              "ToolTip": "C:\\Users\\rohit\\data_structures\\cpp_dsa\\object_oriented_programming\\class.cpp",
+              "RelativeToolTip": "object_oriented_programming\\class.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-02-15T05:08:03.491Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "constructor_limites.cpp",
+              "DocumentMoniker": "C:\\Users\\rohit\\data_structures\\cpp_dsa\\object_oriented_programming\\constructor_limites.cpp",
+              "RelativeDocumentMoniker": "object_oriented_programming\\constructor_limites.cpp",
+              "ToolTip": "C:\\Users\\rohit\\data_structures\\cpp_dsa\\object_oriented_programming\\constructor_limites.cpp",
+              "RelativeToolTip": "object_oriented_programming\\constructor_limites.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-02-15T05:08:01.739Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "inheritance_importance.cpp",
+              "DocumentMoniker": "C:\\Users\\rohit\\data_structures\\cpp_dsa\\object_oriented_programming\\inheritance_importance.cpp",
+              "RelativeDocumentMoniker": "object_oriented_programming\\inheritance_importance.cpp",
+              "ToolTip": "C:\\Users\\rohit\\data_structures\\cpp_dsa\\object_oriented_programming\\inheritance_importance.cpp",
+              "RelativeToolTip": "object_oriented_programming\\inheritance_importance.cpp",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-02-15T05:07:52.397Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CppProperties.json",
+              "DocumentMoniker": "C:\\Users\\rohit\\data_structures\\cpp_dsa\\CppProperties.json",
+              "RelativeDocumentMoniker": "CppProperties.json",
+              "ToolTip": "C:\\Users\\rohit\\data_structures\\cpp_dsa\\CppProperties.json",
+              "RelativeToolTip": "CppProperties.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-02-14T09:42:20.61Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "all_the _memeber_of_one_class_as_the_friend_of_another_class.cpp",
+              "DocumentMoniker": "C:\\Users\\rohit\\data_structures\\cpp_dsa\\object_oriented_programming\\all_the _memeber_of_one_class_as_the_friend_of_another_class.cpp",
+              "RelativeDocumentMoniker": "object_oriented_programming\\all_the _memeber_of_one_class_as_the_friend_of_another_class.cpp",
+              "ToolTip": "C:\\Users\\rohit\\data_structures\\cpp_dsa\\object_oriented_programming\\all_the _memeber_of_one_class_as_the_friend_of_another_class.cpp",
+              "RelativeToolTip": "object_oriented_programming\\all_the _memeber_of_one_class_as_the_friend_of_another_class.cpp",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAABoAAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-02-15T05:08:09.804Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "member_functions.cpp",
+              "DocumentMoniker": "C:\\Users\\rohit\\data_structures\\cpp_dsa\\object_oriented_programming\\member_functions.cpp",
+              "RelativeDocumentMoniker": "object_oriented_programming\\member_functions.cpp",
+              "ToolTip": "C:\\Users\\rohit\\data_structures\\cpp_dsa\\object_oriented_programming\\member_functions.cpp",
+              "RelativeToolTip": "object_oriented_programming\\member_functions.cpp",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-02-15T05:07:44.492Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "inheritance_declaration.cpp",
+              "DocumentMoniker": "C:\\Users\\rohit\\data_structures\\cpp_dsa\\object_oriented_programming\\inheritance_declaration.cpp",
+              "RelativeDocumentMoniker": "object_oriented_programming\\inheritance_declaration.cpp",
+              "ToolTip": "C:\\Users\\rohit\\data_structures\\cpp_dsa\\object_oriented_programming\\inheritance_declaration.cpp",
+              "RelativeToolTip": "object_oriented_programming\\inheritance_declaration.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-02-15T05:07:42.926Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "inheritance.cpp",
+              "DocumentMoniker": "C:\\Users\\rohit\\data_structures\\cpp_dsa\\object_oriented_programming\\inheritance.cpp",
+              "RelativeDocumentMoniker": "object_oriented_programming\\inheritance.cpp",
+              "ToolTip": "C:\\Users\\rohit\\data_structures\\cpp_dsa\\object_oriented_programming\\inheritance.cpp",
+              "RelativeToolTip": "object_oriented_programming\\inheritance.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-02-15T05:07:40.522Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "friend_function_friend_to_more_classes_ex1.cpp",
+              "DocumentMoniker": "C:\\Users\\rohit\\data_structures\\cpp_dsa\\object_oriented_programming\\friend_function_friend_to_more_classes_ex1.cpp",
+              "RelativeDocumentMoniker": "object_oriented_programming\\friend_function_friend_to_more_classes_ex1.cpp",
+              "ToolTip": "C:\\Users\\rohit\\data_structures\\cpp_dsa\\object_oriented_programming\\friend_function_friend_to_more_classes_ex1.cpp",
+              "RelativeToolTip": "object_oriented_programming\\friend_function_friend_to_more_classes_ex1.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-02-15T05:07:39.275Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "switch_case.cpp",
+              "DocumentMoniker": "C:\\Users\\rohit\\data_structures\\cpp_dsa\\switch_case.cpp",
+              "RelativeDocumentMoniker": "switch_case.cpp",
+              "ToolTip": "C:\\Users\\rohit\\data_structures\\cpp_dsa\\switch_case.cpp",
+              "RelativeToolTip": "switch_case.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-02-15T05:07:33.335Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "precedence_operator.cpp",
+              "DocumentMoniker": "C:\\Users\\rohit\\data_structures\\cpp_dsa\\precedence_operator.cpp",
+              "RelativeDocumentMoniker": "precedence_operator.cpp",
+              "ToolTip": "C:\\Users\\rohit\\data_structures\\cpp_dsa\\precedence_operator.cpp",
+              "RelativeToolTip": "precedence_operator.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-02-15T05:07:31.612Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "add two numbers.cpp",
+              "DocumentMoniker": "C:\\Users\\rohit\\data_structures\\cpp_dsa\\add two numbers.cpp",
+              "RelativeDocumentMoniker": "add two numbers.cpp",
+              "ToolTip": "C:\\Users\\rohit\\data_structures\\cpp_dsa\\add two numbers.cpp",
+              "RelativeToolTip": "add two numbers.cpp",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAABAAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-02-14T09:38:37.431Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
