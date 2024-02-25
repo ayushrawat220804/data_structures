@@ -7,6 +7,7 @@ class number{
 		int task(void);
 		void display(void);
 };
+
 void number ::getdata(void)
 {
 	cout << "enter any number to input as data: ";

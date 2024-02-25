@@ -1,39 +1,13 @@
 #Include <stdio.h>
-//circular linked list
-
 /*
+circular linked list
+representation of circular linked list
+the single node is represented as:
 
-the circular linked list
-
-struct node {
-
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+struct node{
+		int data;
+		struct node *node;
+	}
+	
 */
-
 
