@@ -1,5 +1,6 @@
 #include <iostream>
 #include <conio.h>
+#include <climits>
 using namespace std;
 
 int main() {
@@ -66,14 +67,38 @@ int main() {
                 break;
             }
             case 4:{
-            	cout << "hello";
+            	int n;
+            	system("cls");
+				cout << "Enter the number of elements in the array: ";
+				cin >> n;
+				int arr[n];
+				cout << "Enter " << n << " elements: ";
+				for (int i = 0; i < n; i++) {
+				cin >> arr[i];
+				}
+			    int max = INT_MIN;
+				int min = INT_MAX;
+				for (int i = 0; i < n; i++) {
+				if (arr[i] > max) {
+				max = arr[i];
+				}
+				if (arr[i] < min) {
+				min = arr[i];
+				}
+				}
+				cout << "Maximum element: " << max << endl;
+				cout << "Minimum element: " << min << endl;
+				getch();
+				system("cls");
             	break;
 			}
 			case 5: {
 				system("cls");
+				//default array
 				int arr[] = {10, 20, 30, 40, 50};
 				int n = sizeof(arr) / sizeof(arr[0]);
 				cout << "suppose this is an array : {10, 20, 30, 40, 50};" << endl;
+				cout << "as you all knew array indexing always starts from 0 so:\n" << endl;
 				// Print array elements with their index
 				for (int i = 0; i < n; i++) {
 				cout << "Element at index " << i << " is  " << arr[i] << endl;}
