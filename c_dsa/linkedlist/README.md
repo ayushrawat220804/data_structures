@@ -12,7 +12,7 @@ Data: This is where the actual value or payload resides. It could be an integer,
 Next Pointer: The next pointer (often named next) points to the next node in the list. It’s like a bridge connecting one node to the next.
 
 ## syntax for creating a node in linked list
-```
+```js
 struct Node {
     int data;
     struct Node* next;
@@ -119,7 +119,7 @@ This traversal helps us perform operations on the nodes (e.g., printing data or 
 
    * Update the head pointer to point to the new node.
 
-```
+```js
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -172,7 +172,7 @@ Adding a new node at the end involves the following steps:
    * Make sure the new node’s next pointer is NULL (since it’s the last node).
 
 4. Example Code (Insertion at the End):
-```
+```js
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -236,7 +236,7 @@ int main() {
    * Update the previous node’s next pointer to point to the new node.
 
 4. **Example Code** (Insertion After a Specific Node):
-```
+```js
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -286,7 +286,228 @@ int main() {
 ```
 **In this example**, we insert a new node with data ```42``` after the second node (value ```2```).
 
+&nbsp;
+## Deletion at the beginnig of a node in singly linked list
+```js
+#include <stdio.h>
+#include <stdlib.h>
 
+// Define the structure for a singly linked list node
+struct Node {
+    int data;
+    struct Node* next;
+};
 
+// Function to insert a new node at the beginning
+void insertAtBeginning(struct Node** head, int newData) {
+    struct Node* newNode = (struct Node*)malloc(sizeof(struct Node));
+    newNode->data = newData;
+    newNode->next = *head;
+    *head = newNode;
+}
 
+// Function to delete the first node
+void deleteFirstNode(struct Node** head) {
+    if (*head == NULL) {
+        printf("List is empty. Cannot delete.\n");
+        return;
+    }
+    struct Node* temp = *head;
+    *head = (*head)->next;
+    free(temp);
+    printf("First node deleted successfully.\n");
+}
+
+// Example usage
+int main() {
+    struct Node* head = NULL; // Initialize an empty list
+    insertAtBeginning(&head, 42); // Insert 42 at the beginning
+    // Add more insertions as needed
+
+    // Delete the first node
+    deleteFirstNode(&head);
+
+    // Print the updated list (if needed)
+    // ...
+
+    return 0;
+}
+```
+
+&nbsp;
+## Deletion at the end in singly linked list 
+```js
+#include <stdio.h>
+#include <stdlib.h>
+
+// Define the structure for a singly linked list node
+struct Node {
+    int data;
+    struct Node* next;
+};
+
+// Function to insert a new node at the beginning
+void insertAtBeginning(struct Node** head, int newData) {
+    struct Node* newNode = (struct Node*)malloc(sizeof(struct Node));
+    newNode->data = newData;
+    newNode->next = *head;
+    *head = newNode;
+}
+
+// Function to delete the last node
+void deleteEnd(struct Node** head) {
+    struct Node* temp = *head;
+    struct Node* previous = NULL;
+
+    // If the list is empty, cannot delete
+    if (*head == NULL) {
+        printf("Linked List is empty. Nothing to delete.\n");
+        return;
+    }
+
+    // If the list has only 1 node
+    if (temp->next == NULL) {
+        printf("%d deleted\n", (*head)->data);
+        *head = NULL;
+        free(temp);
+        return;
+    }
+
+    // Traverse to the last node
+    while (temp->next != NULL) {
+        previous = temp;
+        temp = temp->next;
+    }
+
+    // Update the second last node's next to NULL
+    previous->next = NULL;
+
+    // Delete the last node
+    printf("%d deleted\n", temp->data);
+    free(temp);
+}
+
+// Display the linked list
+void display(struct Node* node) {
+    while (node != NULL) {
+        printf("%d ", node->data);
+        node = node->next;
+    }
+    printf("\n");
+}
+
+int main() {
+    // Create a sample linked list
+    struct Node* head = NULL;
+    insertAtBeginning(&head, 10);
+    insertAtBeginning(&head, 20);
+    insertAtBeginning(&head, 30);
+
+    printf("Original linked list: ");
+    display(head);
+
+    // Delete the last node
+    deleteEnd(&head);
+
+    printf("Updated linked list: ");
+    display(head);
+
+    // Free memory
+    // ...
+
+    return 0;
+}
+```
+
+&nbsp;
+### Iterative Method:
+
+To delete a node from the linked list, we need to do the following steps:
+* Find the previous node of the node to be deleted.
+* Change the next pointer of the previous node.
+* Free memory for the node to be deleted.
+Below is an example code snippet that demonstrates deletion of a specific node by value:
+```js
+#include <stdio.h>
+#include <stdlib.h>
+
+struct Node {
+    int data;
+    struct Node* next;
+};
+
+// Function to insert a new node at the beginning
+void push(struct Node** head_ref, int new_data) {
+    struct Node* new_node = (struct Node*)malloc(sizeof(struct Node));
+    new_node->data = new_data;
+    new_node->next = (*head_ref);
+    (*head_ref) = new_node;
+}
+
+// Function to delete a node with a given key
+void deleteNode(struct Node** head_ref, int key) {
+    struct Node* temp = *head_ref;
+    struct Node* prev = NULL;
+
+    // If the head node itself needs to be deleted
+    if (temp != NULL && temp->data == key) {
+        *head_ref = temp->next;
+        free(temp);
+        return;
+    }
+
+    // Search for the key to be deleted
+    while (temp != NULL && temp->data != key) {
+        prev = temp;
+        temp = temp->next;
+    }
+
+    // If key is not found
+    if (temp == NULL) {
+        printf("Value %d not found in the list.\n", key);
+        return;
+    }
+
+    // Unlink the node from the linked list
+    prev->next = temp->next;
+    free(temp);
+    printf("Value %d deleted successfully.\n", key);
+}
+
+// Display the linked list
+void printList(struct Node* node) {
+    while (node != NULL) {
+        printf("%d ", node->data);
+        node = node->next;
+    }
+    printf("\n");
+}
+
+int main() {
+    struct Node* head = NULL;
+    push(&head, 7);
+    push(&head, 1);
+    push(&head, 3);
+    push(&head, 2);
+
+    printf("Original Linked List: ");
+    printList(head);
+
+    // Delete a node with value 1
+    deleteNode(&head, 1);
+
+    printf("Linked List after Deletion: ");
+    printList(head);
+
+    // Free memory (not shown in this snippet)
+    return 0;
+}
+```
+
+output : 
+```js
+Original Linked List: 2 3 1 7
+Linked List after Deletion of 1: 2 3 7
+```
+The time complexity of this approach is O(n), where n represents the length of the given linked list, and the auxiliary space is O(1) since no extra space is required.
 
