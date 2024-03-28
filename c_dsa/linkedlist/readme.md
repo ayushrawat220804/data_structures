@@ -1,3 +1,5 @@
+Note: The following content is AI-generated using tools like ChatGPT and Bing AI, along with some text editors.
+
 # linked list
 is a linear data structure where elements (nodes) are not stored in contiguous memory locations like arrays. Instead, each node contains data and a pointer to the next node. Linked lists are used to overcome the limitations of arrays, especially in operations such as insertion, deletion, and dynamic memory allocation.
 
