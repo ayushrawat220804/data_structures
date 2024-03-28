@@ -1,3 +1,5 @@
+Note: The following content is AI-generated using tools like ChatGPT and Bing AI, along with some text editors.
+
 # Queue data structure
 
 ![image](https://github.com/ayushrawat220804/data_structures/assets/139307604/ddb46438-8a8f-4a8c-8bd0-e272ad094ed0)
