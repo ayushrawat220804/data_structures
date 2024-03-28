@@ -1,3 +1,5 @@
+Note: The following content is AI-generated using tools like ChatGPT and Bing AI, along with some text editors.
+
 # Array Data Structure
 An array in **C** is a fundamental data structure that allows you to store multiple values of the same data type under a single name. It provides a way to organize related data efficiently. Here are the key points about arrays in C:
 
