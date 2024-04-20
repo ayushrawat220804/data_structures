@@ -12,7 +12,7 @@ Data: This is where the actual value or payload resides. It could be an integer,
 Next Pointer: The next pointer (often named next) points to the next node in the list. It’s like a bridge connecting one node to the next.
 
 ## syntax for creating a node in linked list
-```
+```c++
 struct Node {
     int data;
     struct Node* next;
@@ -119,7 +119,7 @@ This traversal helps us perform operations on the nodes (e.g., printing data or 
 
    * Update the head pointer to point to the new node.
 
-```
+```c++
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -172,7 +172,7 @@ Adding a new node at the end involves the following steps:
    * Make sure the new node’s next pointer is NULL (since it’s the last node).
 
 4. Example Code (Insertion at the End):
-```
+```c++
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -236,7 +236,7 @@ int main() {
    * Update the previous node’s next pointer to point to the new node.
 
 4. **Example Code** (Insertion After a Specific Node):
-```
+```c++
 #include <stdio.h>
 #include <stdlib.h>
 
