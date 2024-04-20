@@ -17,7 +17,7 @@ void insertatbeginning(struct node** head_ref, int newdata){
 	newnode->next=*head_ref;
 	*head_ref = newnode;
 }
-void insertatend(node** head, int newdata) {
+void insertatend(struct node** head, int newdata) {
     struct node* newnode = new node;
     newnode->data = newdata;
     newnode->next = NULL;
@@ -33,7 +33,7 @@ void insertatend(node** head, int newdata) {
         temp->next = newnode;
     }
 }
-void insertatrandom(node** head_ref, int newdata, int position){
+void insertatrandom(struct node** head_ref, int newdata, int position){
     node* newnode = new node;
     newnode->data = newdata;
     if (position == 0) {
