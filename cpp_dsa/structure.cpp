@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 // struct keyword creates a structer to hold diff locations of diff address.
-// like char holds 20bytes int holds 4 bytes so it will create a location for both seperately which is 20+4 = 24 bytes.
+// like char holds 20bytes, int holds 4 bytes, so it will create a location for both seperately which is 20+4 = 24 bytes.
 // so it store data seperately without replacing it with an garbage value
 struct student{
 	int rollno; // member of structre

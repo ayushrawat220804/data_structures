@@ -27,10 +27,10 @@ void student::display(void)
 }
 int main()
 {
-	student st[size];
+	student st[size];// st[size] is array of object
 	for (int i=0;i<size;i++)
 	{
-		cout << "\nenter details of student: " << i+1; // first loop 0+1 second loop 1+1 second loop 2+1 fourth loop 3<3, out of loop.
+		cout << "\nenter details of student: " << i+1; // first loop 0+1, second loop 1+1, second loop 2+1, fourth loop 3<3, out of loop.
 		st[i].getdata();
 	}
 	cout << endl;

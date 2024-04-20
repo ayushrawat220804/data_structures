@@ -29,7 +29,7 @@ void company :: display(void)
 
 int main()
 {
-	company manager[3], teamlead[5];
+	company manager[3], teamlead[5]; // here manager[3] and teamlead[5] ara array of object
 	for (int i=0; i<3; i++)
 	{
 		cout << "\nenter details of manager of the company: " << i+1; // 0+1, 1+1, 2+1.	

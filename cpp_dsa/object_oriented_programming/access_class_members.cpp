@@ -1,6 +1,7 @@
 #include <iostream>
 using namespace std;
 // access class members using object
+// class_name class_object_name
 // object_name.data_member
 // object_name.member_function
 

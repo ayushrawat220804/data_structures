@@ -6,7 +6,7 @@ function overloading
 it means functions having same name but different working;
 and we call them to do different task;
 
-hint function name is same  but there parameters is different we call them on the basis of their para meters
+hint: function name is same  but there parameters is different we call them on the basis of their para meters
 
 ex - void fun(){
 // some code 
@@ -31,6 +31,6 @@ void fun(int a,int b){
 // int fun(){}
 //
 int main(){
-	void 
+	cout << "hellow";
 	return 0;
 }

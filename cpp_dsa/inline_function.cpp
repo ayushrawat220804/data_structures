@@ -12,5 +12,5 @@ int main(){
 	return 0; // here it will directly jump to line 7 which returns value of a + b
 }
 
-// we cannot use inlinefunction we body function is large for example use cannot use it using loop or recursive functions
+// we cannot use inlinefunction when body function is large for example u cannot use it using loop or recursive functions
 // we we use it when our programme is small.

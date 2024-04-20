@@ -19,14 +19,13 @@ class mystudent_roll{
 };
 
 int main(){
-	mystudent_roll roll_no[4];
+	mystudent_roll roll_no[4]; // here roll_no[4] is array of object
 	for (int i=0;i<4;i++){
 		roll_no[i].setid();
-		roll_no[i].getidid();3
+		roll_no[i].getidid();
 		
 	}
 	return 0;
 	
 }
-
 
