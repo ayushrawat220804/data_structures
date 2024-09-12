@@ -5,4 +5,4 @@ print("hello")
 def chai(n):
     print(n)
     
-chai(5)
+chai(55)
