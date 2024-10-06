@@ -1,7 +1,10 @@
 #include <iostream>
 #include <cstring>
 using namespace std;
+// strlen to check length of the string
+// strcmp to check whether strings are same or not 
 int main(){
+	// inbuild fn1 "strlen"
 //	char string[100];
 //	cout << "enter a string: ";
 //	cin >> string;
@@ -10,7 +13,7 @@ int main(){
 //	cout << length << " is length of string ";
 //	
 
-// inbuild fn2
+// inbuild fn2 "strcmp"
     char str1[100];
     char str2[100];
     cin >> str1>>str2;
