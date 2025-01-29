@@ -1,0 +1,32 @@
+from selenium import webdriver
+from selenium.webdriver.common.keys import Keys
+import time
+
+# Set up the WebDriver (make sure you have the appropriate web driver installed)
+driver = webdriver.Chrome()
+
+# Navigate to the Monkeytype website
+driver.get("https://monkeytype.com/")
+
+# Wait for the page to load
+time.sleep(5)
+
+# Find the typing input area
+input_area = driver.find_element_by_class_name("typing-input")
+
+# Define a function to type the generated words
+def type_words():
+    while True:
+        # Get the current word
+        current_word = driver.find_element_by_class_name("current-word").text
+
+        # Type the current word followed by a space
+        input_area.send_keys(current_word + " ")
+        time.sleep(0.1)
+
+# Start typing words
+type_words()
+
+# Close the browser after some time (e.g., 60 seconds)
+time.sleep(60)
+driver.quit()

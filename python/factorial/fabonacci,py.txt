@@ -1,0 +1,14 @@
+import sys
+
+# Increase recursion limit to handle larger values
+sys.setrecursionlimit(2000)  # You can set this to a higher value if needed
+
+# Fibonacci function using recursion
+def fibonacci(n):
+    if n <= 1:
+        return n
+    else:
+        return fibonacci(n - 1) + fibonacci(n - 2)
+
+# Example for Fibonacci of 500
+print(fibonacci(41))
